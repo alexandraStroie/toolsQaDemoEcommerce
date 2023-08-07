@@ -11,6 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
+.idea
 
 ### Eclipse ###
 .apt_generated
@@ -36,3 +37,22 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+#drivers
+/webdrivers
+webdrivers
+
+
+
+# Compiled bytecode
+/bin/
+/target/
+
+# Other common build artifacts
+*.class
+*.log
+
+# IDE-specific files (e.g., for Eclipse)
+.classpath
+.project
+.settings/
